@@ -1,0 +1,106 @@
+
+
+2018-12-18 22:39:42--->Firing a SESSION_OPENED event for session 2
+
+2018-12-18 22:39:42--->Event SESSION_OPENED has been fired for session 2
+
+RECEIVED: {"data":{"tableId":"20378","pid":"e65e6c48ae3afb82"},"cmd":"RE_ENTER"}
+
+2018-12-18 22:39:42--->Firing a SESSION_CLOSED event for session 2
+
+2018-12-18 22:39:42--->Event SESSION_CLOSED has been fired for session 2
+
+2018-12-18 22:39:52--->Firing a SESSION_OPENED event for session 3
+
+2018-12-18 22:39:52--->Event SESSION_OPENED has been fired for session 3
+
+2018-12-18 22:39:52--->Firing a SESSION_CLOSED event for session 3
+
+2018-12-18 22:39:52--->Event SESSION_CLOSED has been fired for session 3
+
+2018-12-18 22:39:52--->Firing a SESSION_OPENED event for session 4
+
+2018-12-18 22:39:52--->Event SESSION_OPENED has been fired for session 4
+
+RECEIVED: {"data":{"srcUrl":"http:\/\/www.example.com:8080\/api\/hall_action","rToken":"c896a0bb227a7933"},"cmd":"CREATE_TABLE"}
+
+SENT: {"cmd":"CREATE_TABLE_RES","data":{"resCode":0,"obj":{"tableInfo":{"id":68713,"tStatus":"INIT","rules":"2人,4局,平均支付 不带本  霸庄  []","rule_string":["霸庄","不带本"],"round_bao":-1,"rules_mai_ma":false,"rules_mai_piao":false,"rules_zhang_mao":false,"rules_bao_pai":false,"rules_an_gang":false,"rules_xiao_tao":false,"rounds":4,"costs":"AA","players":2,"seats":[{"index":0,"nextIndex":1,"status":"INIT","score":0,"master":true,"banker":true,"cardsLeft":0,"multi":-1,"isTitinged":false,"preTitinged":false,"huas":[],"chis":[],"pengs":[],"pengsmap":[],"diangangs":[],"wangangs":[],"angangs":[],"gangsmap":[],"folds":[],"mai_ma_value":-1,"mai_piao_value":-1,"player":{"nick":"游客253471","head":"","sex":1,"pid":"96e44fe79d8bf479","id":253471},"ip":"192.168.0.199","nState":"ONLINE"}]},"playerInfo":{"pid":"96e44fe79d8bf479","id":253471},"actionInfo":{"time":1545143992532,"actionTime":1545143992531,"timeLeft":10000,"round":1,"actionName":"","action":1}}}}
+
+RECEIVED: {"data":{"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000}},"cmd":"COMMIT_COORDINATE"}
+
+SENT: {"cmd":"COMMIT_COORDINATE_RES","data":{"resCode":0,"obj":{"index":0,"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000}}}}
+
+RECEIVED: {"cmd":"READY"}
+
+SENT: {"cmd":"READY_RES","data":{"resCode":0,"obj":{"time":1545143993646,"actionTime":1545143993645,"timeLeft":10000,"round":1,"actionResult":{"status":"READY"},"action":2}}}
+
+2018-12-18 22:39:58--->Firing a SESSION_OPENED event for session 5
+
+2018-12-18 22:39:58--->Event SESSION_OPENED has been fired for session 5
+
+2018-12-18 22:39:58--->Firing a SESSION_CLOSED event for session 5
+
+2018-12-18 22:39:58--->Event SESSION_CLOSED has been fired for session 5
+
+2018-12-18 22:39:58--->Firing a SESSION_OPENED event for session 6
+
+2018-12-18 22:39:58--->Event SESSION_OPENED has been fired for session 6
+
+RECEIVED: {"data":{"rToken":"4c737d3190bd2759"},"cmd":"ENTER"}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545143998268,"actionTime":1545143998261,"timeLeft":10000,"round":1,"actor":{"index":1,"nextIndex":0,"status":"INIT","score":0,"master":false,"banker":false,"cardsLeft":0,"multi":-1,"isTitinged":false,"preTitinged":false,"huas":[],"chis":[],"pengs":[],"pengsmap":[],"diangangs":[],"wangangs":[],"angangs":[],"gangsmap":[],"folds":[],"mai_ma_value":-1,"mai_piao_value":-1,"player":{"nick":"游客253472","head":"","sex":1,"pid":"874c9f154a5a0fe5","id":253472},"ip":"192.168.0.199","nState":"ONLINE"},"actionName":"ENTER","action":3}}}}
+
+SENT: {"cmd":"ENTER_RES","data":{"resCode":0,"obj":{"tableInfo":{"id":68713,"tStatus":"INIT","rules":"2人,4局,平均支付 不带本  霸庄  []","rule_string":["霸庄","不带本"],"round_bao":-1,"rules_mai_ma":false,"rules_mai_piao":false,"rules_zhang_mao":false,"rules_bao_pai":false,"rules_an_gang":false,"rules_xiao_tao":false,"rounds":4,"costs":"AA","players":2,"seats":[{"index":0,"nextIndex":1,"status":"READY","score":0,"master":true,"banker":true,"cardsLeft":0,"multi":-1,"isTitinged":false,"preTitinged":false,"huas":[],"chis":[],"pengs":[],"pengsmap":[],"diangangs":[],"wangangs":[],"angangs":[],"gangsmap":[],"folds":[],"mai_ma_value":-1,"mai_piao_value":-1,"player":{"nick":"游客253471","head":"","sex":1,"pid":"96e44fe79d8bf479","id":253471},"ip":"192.168.0.199","nState":"ONLINE","coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000}},{"index":1,"nextIndex":0,"status":"INIT","score":0,"master":false,"banker":false,"cardsLeft":0,"multi":-1,"isTitinged":false,"preTitinged":false,"huas":[],"chis":[],"pengs":[],"pengsmap":[],"diangangs":[],"wangangs":[],"angangs":[],"gangsmap":[],"folds":[],"mai_ma_value":-1,"mai_piao_value":-1,"player":{"nick":"游客253472","head":"","sex":1,"pid":"874c9f154a5a0fe5","id":253472},"ip":"192.168.0.199","nState":"ONLINE"}],"cards":[],"chis":[],"pengs":[],"diangangs":[],"wangangs":[],"angangs":[],"folds":[],"pokerCount":0},"playerInfo":{"nick":"游客253472","head":"","sex":1,"pid":"874c9f154a5a0fe5","id":253472},"actionInfo":{"time":1545143998274,"actionTime":1545143998261,"timeLeft":10000,"round":1,"actionName":"","action":3},"sessions":[{"253471_游客253471":4},{"253472_游客253472":6}]}}}
+
+RECEIVED: {"data":{"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000}},"cmd":"COMMIT_COORDINATE"}
+
+SENT: {"cmd":"COMMIT_COORDINATE_RES","data":{"resCode":0,"obj":{"index":1,"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000}}}}
+
+SENT: {"cmd":"COMMIT_COORDINATE_RES","data":{"resCode":0,"obj":{"index":1,"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000}}}}
+
+RECEIVED: {"cmd":"READY"}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545143999407,"actionTime":1545143999374,"timeLeft":10000,"round":1,"actor":{"index":1,"status":"READY"},"actionName":"READY","action":4}}}}
+
+SENT: {"cmd":"READY_RES","data":{"resCode":0,"obj":{"time":1545143999410,"actionTime":1545143999374,"timeLeft":10000,"round":1,"actionResult":{"status":"READY"},"action":4}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545143999528,"actionTime":1545143999528,"timeLeft":10000,"round":1,"actionName":"STATUS_SYNC","actionResult":{"tStatus":"PLAYING","cards":[18,19,20,21,22,23,9,10,11,14,15,16,18,30],"rules_mai_piao":false,"rules_an_gang":false,"rules_xiao_tao":false,"round_bao":7,"focus":0,"rules_mai_ma":false,"pokerCount":109,"rules_bao_pai":false,"rules_zhang_mao":false,"seats":[{"index":0,"nextIndex":1,"status":"PLAYING","score":0,"master":true,"banker":true,"cardsLeft":14,"multi":-1,"isTitinged":false,"preTitinged":false,"huas":[],"chis":[],"pengs":[],"pengsmap":[],"diangangs":[],"wangangs":[],"angangs":[],"gangsmap":[],"folds":[],"mai_ma_value":-1,"mai_piao_value":-1},{"index":1,"nextIndex":0,"status":"PLAYING","score":0,"master":false,"banker":false,"cardsLeft":13,"multi":-1,"isTitinged":false,"preTitinged":false,"huas":[],"chis":[],"pengs":[],"pengsmap":[],"diangangs":[],"wangangs":[],"angangs":[],"gangsmap":[],"folds":[],"mai_ma_value":-1,"mai_piao_value":-1}]},"action":5}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545143999531,"actionTime":1545143999528,"timeLeft":10000,"round":1,"actionName":"STATUS_SYNC","actionResult":{"tStatus":"PLAYING","cards":[18,19,20,21,22,23,9,10,11,14,15,16,27],"rules_mai_piao":false,"rules_an_gang":false,"rules_xiao_tao":false,"round_bao":7,"focus":0,"rules_mai_ma":false,"pokerCount":109,"rules_bao_pai":false,"rules_zhang_mao":false,"seats":[{"index":0,"nextIndex":1,"status":"PLAYING","score":0,"master":true,"banker":true,"cardsLeft":14,"multi":-1,"isTitinged":false,"preTitinged":false,"huas":[],"chis":[],"pengs":[],"pengsmap":[],"diangangs":[],"wangangs":[],"angangs":[],"gangsmap":[],"folds":[],"mai_ma_value":-1,"mai_piao_value":-1},{"index":1,"nextIndex":0,"status":"PLAYING","score":0,"master":false,"banker":false,"cardsLeft":13,"multi":-1,"isTitinged":false,"preTitinged":false,"huas":[],"chis":[],"pengs":[],"pengsmap":[],"diangangs":[],"wangangs":[],"angangs":[],"gangsmap":[],"folds":[],"mai_ma_value":-1,"mai_piao_value":-1}]},"action":5}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545143999534,"actionTime":1545143999528,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY_CHUPAI","actionResult":{"index":0},"action":5}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545143999534,"actionTime":1545143999528,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY_CHUPAI","actionResult":{"index":0},"action":5}}}}
+
+SENT: {"cmd":"PLAY_TIPAI","data":{"resCode":0,"obj":{"time":1545143999546,"actionTime":1545143999528,"timeLeft":10000,"round":1,"actionResult":{"tingList":[],"tiPaiMap":{}},"action":5}}}
+
+RECEIVED: {"data":{"cards":[30]},"cmd":"PLAY"}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545144007038,"actionTime":1545144007038,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY","actionResult":{"chupai":30,"focus":0,"lastPlay":{"index":0,"pai":30,"action":"PLAY_CHUPAI","chis":[],"pengs":[],"angangs":[],"diangangs":[],"wangangs":[],"huas":[],"cards":[18,19,20,21,22,23,9,10,11,14,15,16,18],"folds":[]},"lastPlayData":{"index":0,"pai":30,"action":"PLAY_CHUPAI","chis":[],"pengs":[],"angangs":[],"diangangs":[],"wangangs":[],"huas":[],"cards":[18,19,20,21,22,23,9,10,11,14,15,16,18],"folds":[]},"cardsLeft":13},"action":6}}}}
+
+SENT: {"cmd":"PLAY_MOPAI_RES","data":{"resCode":0,"obj":{"time":1545144007050,"actionTime":1545144007048,"timeLeft":10000,"round":1,"actionResult":{"focus":1,"pokerCount":108,"cards":[18,19,20,21,22,23,9,10,11,14,15,16,27,27]},"action":7}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545144007051,"actionTime":1545144007048,"timeLeft":10000,"round":1,"actor":{"index":1},"actionName":"PLAY_CHUPAI","actionResult":{"index":1},"action":7}}}}
+
+SENT: {"cmd":"PLAY_TIPAI","data":{"resCode":0,"obj":{"time":1545144007059,"actionTime":1545144007048,"timeLeft":10000,"round":1,"actionResult":{"tingList":[],"tiPaiMap":{}},"action":7}}}
+
+SENT: {"cmd":"PLAY_RES","data":{"resCode":0,"obj":{"time":1545144007045,"actionTime":1545144007038,"timeLeft":10000,"round":1,"actionResult":{"chupai":30,"focus":0,"cards":[18,19,20,21,22,23,9,10,11,14,15,16,18],"cardsLeft":13},"action":6}}}
+
+SENT: {"cmd":"PLAY_TIPAI","data":{"resCode":0,"obj":{"time":1545144007046,"actionTime":1545144007038,"timeLeft":10000,"round":1,"actionResult":{"tingList":[],"tiPaiMap":{}},"action":6}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545144007048,"actionTime":1545144007048,"timeLeft":10000,"round":1,"actor":{"index":1},"actionName":"PLAY_MOPAI","actionResult":{"focus":1,"cardsLeft":14,"pokerCount":108},"action":7}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545144007051,"actionTime":1545144007048,"timeLeft":10000,"round":1,"actor":{"index":1},"actionName":"PLAY_CHUPAI","actionResult":{"index":1},"action":7}}}}
+
+RECEIVED: {"data":{"cards":[18]},"cmd":"PLAY"}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545144016504,"actionTime":1545144016504,"timeLeft":10000,"round":1,"actor":{"index":1},"actionName":"PLAY","actionResult":{"chupai":18,"focus":1,"lastPlay":{"index":1,"pai":18,"action":"PLAY_CHUPAI","chis":[],"pengs":[],"angangs":[],"diangangs":[],"wangangs":[],"huas":[],"cards":[19,20,21,22,23,9,10,11,14,15,16,27,27],"folds":[]},"lastPlayData":{"index":1,"pai":18,"action":"PLAY_CHUPAI","chis":[],"pengs":[],"angangs":[],"diangangs":[],"wangangs":[],"huas":[],"cards":[19,20,21,22,23,9,10,11,14,15,16,27,27],"folds":[]},"cardsLeft":13},"action":8}}}}
+
+SENT: {"cmd":"PLAY_RES","data":{"resCode":0,"obj":{"time":1545144016508,"actionTime":1545144016504,"timeLeft":10000,"round":1,"actionResult":{"chupai":18,"focus":1,"cards":[19,20,21,22,23,9,10,11,14,15,16,27,27],"cardsLeft":13},"action":8}}}
+
+SENT: {"cmd":"PLAY_ACTION","data":{"resCode":0,"obj":{"time":1545144016511,"actionTime":1545144016504,"timeLeft":10000,"round":1,"actionResult":{"gang":false,"gangpai":[],"angang":false,"chi":true,"hu":false,"chipai":[[19,20]],"titing":false,"tipai":[],"gaangangpaing":[],"pai":18,"peng":true,"pengpai":[[18]],"showguo":true},"action":8}}}
+
+SENT: {"cmd":"PLAY_TIPAI","data":{"resCode":0,"obj":{"time":1545144016510,"actionTime":1545144016504,"timeLeft":10000,"round":1,"actionResult":{"tingList":[],"tiPaiMap":{}},"action":8}}}
+
+RECEIVED: {"data":{"cards":[18]},"cmd":"PLAY_PENG"}
+

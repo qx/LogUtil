@@ -1,0 +1,94 @@
+
+
+2018-12-18 17:09:42--->Firing a SESSION_OPENED event for session 2
+
+2018-12-18 17:09:42--->Event SESSION_OPENED has been fired for session 2
+
+2018-12-18 17:09:42--->Firing a SESSION_CLOSED event for session 2
+
+2018-12-18 17:09:42--->Event SESSION_CLOSED has been fired for session 2
+
+2018-12-18 17:09:42--->Firing a SESSION_OPENED event for session 3
+
+2018-12-18 17:09:42--->Event SESSION_OPENED has been fired for session 3
+
+RECEIVED: {"data":{"srcUrl":"http:\/\/www.example.com:8080\/hall\/","rToken":"e0089545d5ac046c"},"cmd":"CREATE_TABLE"}
+
+SENT: {"cmd":"CREATE_TABLE_RES","data":{"resCode":0,"obj":{"tableInfo":{"costs":"AA","tStatus":"READY","players":2,"rules":"2人,1圈,平均支付,听牌后不可以明杠,剩20张流局,流3局赔庄","id":237982,"seats":[{"chis":null,"folds":null,"coordinate":null,"preTitinged":false,"ip":"127.0.0.1","index":0,"wangangs":null,"nextIndex":1,"banker":false,"titingMopai":0,"huas":null,"master":true,"multi":-1,"diangangs":null,"score":0,"isTitinged":false,"gangsmap":null,"pengsmap":null,"angangs":null,"pengs":null,"status":null,"player":{"nick":"游客334580","head":"","sex":1,"pid":"b3a03be0653119e3","id":334580},"nState":"ONLINE"}],"rounds":1},"playerInfo":{"pid":"b3a03be0653119e3","id":334580},"actionInfo":{"time":1545124183511,"action":1,"actionTime":1545124183511,"timeLeft":0,"round":1}}}}
+
+RECEIVED: {"data":{"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000}},"cmd":"COMMIT_COORDINATE"}
+
+SENT: {"cmd":"COMMIT_COORDINATE_RES","data":{"resCode":0,"obj":{"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000},"index":0}}}
+
+RECEIVED: {"cmd":"TABLE_RULES"}
+
+SENT: {"cmd":"TABLE_RULES_RES","data":{"resCode":0,"obj":[[{"text":"剩20张流局 流3局赔庄","title":"玩法"},{"text":" ","title":""}],[{"text":"不可以","title":"听牌后明杠"}],[{"text":"2人","title":"人数"},{"text":"1圈","title":"圈数"}],[{"text":"平均支付","title":"房间规则"}]]}}
+
+2018-12-18 17:09:55--->Firing a SESSION_OPENED event for session 4
+
+2018-12-18 17:09:55--->Event SESSION_OPENED has been fired for session 4
+
+2018-12-18 17:09:55--->Firing a SESSION_CLOSED event for session 4
+
+2018-12-18 17:09:55--->Event SESSION_CLOSED has been fired for session 4
+
+2018-12-18 17:09:56--->Firing a SESSION_OPENED event for session 5
+
+2018-12-18 17:09:56--->Event SESSION_OPENED has been fired for session 5
+
+RECEIVED: {"data":{"rToken":"5b08980be76b3f86"},"cmd":"ENTER"}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124196218,"action":2,"actionTime":1545124196207,"timeLeft":0,"round":1,"actor":{"chis":null,"folds":null,"coordinate":null,"preTitinged":false,"ip":"127.0.0.1","index":1,"wangangs":null,"nextIndex":0,"banker":false,"titingMopai":0,"huas":null,"master":false,"multi":-1,"diangangs":null,"score":0,"isTitinged":false,"gangsmap":null,"pengsmap":null,"angangs":null,"pengs":null,"status":null,"player":{"nick":"游客334581","head":"","sex":1,"pid":"4a9e8a96a8ffd37d","id":334581},"nState":"ONLINE"},"actionName":"ENTER"}}}}
+
+SENT: {"cmd":"ENTER_RES","data":{"resCode":0,"obj":{"tableInfo":{"costs":"AA","chis":null,"tStatus":"READY","folds":null,"players":2,"rules":"2人,1圈,平均支付,听牌后不可以明杠,剩20张流局,流3局赔庄","wangangs":null,"seats":[{"chis":null,"folds":null,"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000},"preTitinged":false,"ip":"127.0.0.1","index":0,"wangangs":null,"nextIndex":1,"banker":false,"titingMopai":0,"huas":null,"master":true,"multi":-1,"diangangs":null,"score":0,"isTitinged":false,"gangsmap":null,"pengsmap":null,"angangs":null,"pengs":null,"status":null,"player":{"nick":"游客334580","head":"","sex":1,"pid":"b3a03be0653119e3","id":334580},"nState":"ONLINE"},{"chis":null,"folds":null,"coordinate":null,"preTitinged":false,"ip":"127.0.0.1","index":1,"wangangs":null,"nextIndex":0,"banker":false,"titingMopai":0,"huas":null,"master":false,"multi":-1,"diangangs":null,"score":0,"isTitinged":false,"gangsmap":null,"pengsmap":null,"angangs":null,"pengs":null,"status":null,"player":{"nick":"游客334581","head":"","sex":1,"pid":"4a9e8a96a8ffd37d","id":334581},"nState":"ONLINE"}],"diangangs":null,"angangs":null,"id":237982,"pokerCount":0,"pengs":null,"rounds":1},"playerInfo":{"nick":"游客334581","head":"","sex":1,"pid":"4a9e8a96a8ffd37d","id":334581},"actionInfo":{"time":1545124196223,"action":2,"actionTime":1545124196207,"timeLeft":0,"round":1}}}}
+
+RECEIVED: {"data":{"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000}},"cmd":"COMMIT_COORDINATE"}
+
+SENT: {"cmd":"COMMIT_COORDINATE_RES","data":{"resCode":0,"obj":{"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000},"index":1}}}
+
+SENT: {"cmd":"COMMIT_COORDINATE_RES","data":{"resCode":0,"obj":{"coordinate":{"location":"上海市浦东新区祖冲之路1599号6008","longitude":2000,"latitude":1000},"index":1}}}
+
+RECEIVED: {"cmd":"TABLE_RULES"}
+
+SENT: {"cmd":"TABLE_RULES_RES","data":{"resCode":0,"obj":[[{"text":"剩20张流局 流3局赔庄","title":"玩法"},{"text":" ","title":""}],[{"text":"不可以","title":"听牌后明杠"}],[{"text":"2人","title":"人数"},{"text":"1圈","title":"圈数"}],[{"text":"平均支付","title":"房间规则"}]]}}
+
+RECEIVED: {"cmd":"READY"}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124275432,"action":3,"actionTime":1545124275432,"timeLeft":0,"round":1,"actor":{"index":0,"status":"READY"},"actionName":"READY"}}}}
+
+SENT: {"cmd":"READY_RES","data":{"resCode":0,"obj":{"time":1545124275434,"action":3,"actionTime":1545124275432,"timeLeft":0,"round":1,"actionResult":{"status":"READY"}}}}
+
+RECEIVED: {"cmd":"READY"}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124277931,"action":4,"actionTime":1545124277931,"timeLeft":0,"round":1,"actor":{"index":1,"status":"READY"},"actionName":"READY"}}}}
+
+SENT: {"cmd":"READY_RES","data":{"resCode":0,"obj":{"time":1545124277933,"action":4,"actionTime":1545124277931,"timeLeft":0,"round":1,"actionResult":{"status":"READY"}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124278017,"action":5,"actionTime":1545124278017,"timeLeft":10000,"round":1,"actionName":"STATUS_SYNC","actionResult":{"tStatus":"PLAYING","cards":[12,18,30,5,2,25,3,10,11,13,26,5,31,8],"focus":0,"pokerCount":109,"seats":[{"chis":[],"folds":[],"preTitinged":false,"cardsLeft":14,"index":0,"wangangs":[],"nextIndex":1,"banker":true,"titingMopai":-1,"huas":[],"master":true,"multi":-1,"diangangs":[],"score":0,"isTitinged":false,"gangsmap":[],"pengsmap":[],"angangs":[],"pengs":[],"status":"PLAYING"},{"chis":[],"folds":[],"preTitinged":false,"cardsLeft":13,"index":1,"wangangs":[],"nextIndex":0,"banker":false,"titingMopai":-1,"huas":[],"master":false,"multi":-1,"diangangs":[],"score":0,"isTitinged":false,"gangsmap":[],"pengsmap":[],"angangs":[],"pengs":[],"status":"PLAYING"}]}}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124278020,"action":5,"actionTime":1545124278017,"timeLeft":10000,"round":1,"actionName":"STATUS_SYNC","actionResult":{"tStatus":"PLAYING","cards":[16,25,23,5,28,15,6,1,18,20,16,17,15],"focus":0,"pokerCount":109,"seats":[{"chis":[],"folds":[],"preTitinged":false,"cardsLeft":14,"index":0,"wangangs":[],"nextIndex":1,"banker":true,"titingMopai":-1,"huas":[],"master":true,"multi":-1,"diangangs":[],"score":0,"isTitinged":false,"gangsmap":[],"pengsmap":[],"angangs":[],"pengs":[],"status":"PLAYING"},{"chis":[],"folds":[],"preTitinged":false,"cardsLeft":13,"index":1,"wangangs":[],"nextIndex":0,"banker":false,"titingMopai":-1,"huas":[],"master":false,"multi":-1,"diangangs":[],"score":0,"isTitinged":false,"gangsmap":[],"pengsmap":[],"angangs":[],"pengs":[],"status":"PLAYING"}]}}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124278023,"action":5,"actionTime":1545124278017,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY_CHUPAI","actionResult":{"index":0}}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124278023,"action":5,"actionTime":1545124278017,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY_CHUPAI","actionResult":{"index":0}}}}}
+
+SENT: {"cmd":"PLAY_TIPAI","data":{"resCode":0,"obj":{"time":1545124278031,"action":5,"actionTime":1545124278017,"timeLeft":10000,"round":1,"actionResult":{"tingList":[],"tiPaiMap":{}}}}}
+
+RECEIVED: {"data":{"cards":[8]},"cmd":"PLAY"}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124288232,"action":6,"actionTime":1545124288232,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY","actionResult":{"cardsLeft":13,"chupai":8,"focus":0,"lastPlay":{"index":0,"pai":8,"action":"PLAY_CHUPAI","chis":null,"pengs":null,"angangs":null,"diangangs":null,"wangangs":null,"huas":null,"cards":[18,30,5,2,25,3,10,11,13,26,5,31,12],"folds":[]},"lastPlayData":{"index":0,"pai":8,"action":"PLAY_CHUPAI","chis":null,"pengs":null,"angangs":null,"diangangs":null,"wangangs":null,"huas":null,"cards":[18,30,5,2,25,3,10,11,13,26,5,31,12],"folds":[]}}}}}}
+
+SENT: {"cmd":"PLAY_MOPAI_RES","data":{"resCode":0,"obj":{"time":1545124288241,"action":7,"actionTime":1545124288239,"timeLeft":10000,"round":1,"actionResult":{"cards":[16,25,23,5,28,15,6,1,18,20,16,17,15,27],"focus":1,"pokerCount":108}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124288242,"action":7,"actionTime":1545124288239,"timeLeft":10000,"round":1,"actor":{"index":1},"actionName":"PLAY_CHUPAI","actionResult":{"index":1}}}}}
+
+SENT: {"cmd":"PLAY_RES","data":{"resCode":0,"obj":{"time":1545124288235,"action":6,"actionTime":1545124288232,"timeLeft":10000,"round":1,"actionResult":{"cards":[18,30,5,2,25,3,10,11,13,26,5,31,12],"cardsLeft":13,"chupai":8,"focus":0}}}}
+
+SENT: {"cmd":"PLAY_TIPAI","data":{"resCode":0,"obj":{"time":1545124288247,"action":7,"actionTime":1545124288239,"timeLeft":10000,"round":1,"actionResult":{"tingList":[],"tiPaiMap":{}}}}}
+
+SENT: {"cmd":"PLAY_TIPAI","data":{"resCode":0,"obj":{"time":1545124288238,"action":6,"actionTime":1545124288232,"timeLeft":10000,"round":1,"actionResult":{"tingList":[],"tiPaiMap":{}}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124288239,"action":7,"actionTime":1545124288239,"timeLeft":10000,"round":1,"actor":{"index":1},"actionName":"PLAY_MOPAI","actionResult":{"cardsLeft":14,"focus":1,"pokerCount":108}}}}}
+
+SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545124288242,"action":7,"actionTime":1545124288239,"timeLeft":10000,"round":1,"actor":{"index":1},"actionName":"PLAY_CHUPAI","actionResult":{"index":1}}}}}
+

@@ -1,0 +1,258 @@
+
+2018-12-26 14:31:42 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:31:42 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:42 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:31:42 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:42 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:31:42 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:31:42 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805902977,"action":7,"actionTime":1545805890402,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:42 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:31:42 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:31:42 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:31:42 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805902979,"action":7,"actionTime":1545805890402,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:42 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:31:46 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:31:46 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:31:46 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:46 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:46 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:31:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:31:46 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805906983,"action":7,"actionTime":1545805890402,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:31:46 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:31:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:31:46 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805906983,"action":7,"actionTime":1545805890402,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:31:47 INFO  LoggingFilter - RECEIVED: {"data":{"cards":[17]},"cmd":"PLAY"}
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:31:47 INFO  LoggingFilter - SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545805907089,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1,"actor":{"index":1},"actionName":"PLAY","actionResult":{"cardsLeft":13,"chupai":17,"focus":1,"lastPlay":{"index":1,"pai":17,"action":"PLAY_CHUPAI","chis":null,"pengs":null,"angangs":null,"diangangs":null,"wangangs":null,"huas":null,"cards":[18,19,20,21,22,23,9,11,14,15,16,27,8],"folds":[]},"lastPlayData":{"index":1,"pai":17,"action":"PLAY_CHUPAI","chis":null,"pengs":null,"angangs":null,"diangangs":null,"wangangs":null,"huas":null,"cards":[18,19,20,21,22,23,9,11,14,15,16,27,8],"folds":[]}}}}}}
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:31:47 INFO  LoggingFilter - SENT: {"cmd":"PLAY_RES","data":{"resCode":0,"obj":{"time":1545805907096,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1,"actionResult":{"cards":[18,19,20,21,22,23,9,11,14,15,16,27,8],"cardsLeft":13,"chupai":17,"focus":1}}}}
+2018-12-26 14:31:47 INFO  LoggingFilter - SENT: {"cmd":"PLAY_ACTION","data":{"resCode":0,"obj":{"time":1545805907101,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1,"actionResult":{"gang":true,"gangpai":[[17]],"angang":false,"chi":false,"hu":false,"angangpai":[],"chipai":[],"titing":false,"tipai":[],"pai":17,"peng":true,"pengpai":[[17]],"showguo":true}}}}
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:31:47 INFO  LoggingFilter - SENT: {"cmd":"PLAY_TIPAI","data":{"resCode":0,"obj":{"time":1545805907099,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1,"actionResult":{"tingList":[],"tiPaiMap":{}}}}}
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:31:47 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:31:50 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:31:50 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:31:50 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:50 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:50 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:31:50 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:31:50 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:31:50 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805910980,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:50 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:31:50 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:31:50 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805910980,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:50 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:31:54 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:31:54 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:54 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:31:54 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:54 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:31:54 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:31:54 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805914970,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:54 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:31:54 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:31:54 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:31:54 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805914972,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:54 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:31:58 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:31:58 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:58 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:31:58 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:31:58 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:31:58 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:31:58 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:31:58 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:31:58 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805918978,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:58 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805918976,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:31:58 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:31:58 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:02 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:02 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:02 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:02 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:02 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:02 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:02 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:02 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:02 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805922975,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:02 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805922975,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:02 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:02 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:06 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:06 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:06 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:06 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:06 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:06 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:06 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:06 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805926979,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:06 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:06 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:06 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805926979,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:06 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:10 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:10 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:10 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:10 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:10 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:10 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:10 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:10 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:10 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805930986,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:10 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805930986,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:10 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:10 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:14 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:14 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:14 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:14 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:14 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:14 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:14 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:14 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:14 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805934981,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:14 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805934981,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:14 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:14 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:18 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:18 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:18 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:18 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:18 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:18 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:18 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:18 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:18 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805938983,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:18 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805938982,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:18 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:18 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:22 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:22 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:22 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:22 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:22 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:22 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:22 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:22 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805942980,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:22 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:22 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:22 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805942980,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:22 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:26 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:26 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:26 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:26 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:26 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:26 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:26 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:26 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:26 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805946986,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:26 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:26 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805946986,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:26 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:30 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:30 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:30 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:30 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:30 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:30 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:30 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:30 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:30 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805950974,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:30 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805950974,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:30 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:30 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:34 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:34 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:34 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:34 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:34 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:34 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:34 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805954974,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:34 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:34 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:34 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:34 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805954975,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:34 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:38 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:38 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:38 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:38 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:38 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:38 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:38 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:38 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:38 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805958975,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:38 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805958976,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:38 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:38 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:42 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:42 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:42 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:42 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:42 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:42 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:42 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:42 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:42 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805962979,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:42 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:42 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805962979,"action":8,"actionTime":1545805907089,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:42 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:46 INFO  LoggingFilter - RECEIVED: {"data":{"cards":[17]},"cmd":"PLAY_GANG"}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:46 INFO  LoggingFilter - SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545805966673,"action":9,"actionTime":1545805966673,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY_GANG","actionResult":{"gangtype":"diangang","gang":[17],"diangangindex":1,"cardsLeft":10,"chupaiIndex":1,"chupai":17}}}}}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:46 INFO  LoggingFilter - SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545805966676,"action":10,"actionTime":1545805966676,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY_MOPAI","actionResult":{"cardsLeft":11,"focus":0,"pokerCount":107}}}}}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:46 INFO  LoggingFilter - SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545805966680,"action":10,"actionTime":1545805966676,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY_CHUPAI","actionResult":{"index":0}}}}}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:46 INFO  LoggingFilter - SENT: {"cmd":"PLAY_GANG_RES","data":{"resCode":0,"obj":{"time":1545805966674,"action":9,"actionTime":1545805966673,"timeLeft":10000,"round":1,"actionResult":{"gangtype":"diangang","gang":[17],"cards":[19,20,12,13,14,0,1,2,9,30],"diangangindex":1,"chupaiIndex":1,"chupai":17}}}}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:46 INFO  LoggingFilter - SENT: {"cmd":"PLAY_MOPAI_RES","data":{"resCode":0,"obj":{"time":1545805966678,"action":10,"actionTime":1545805966676,"timeLeft":10000,"round":1,"actionResult":{"cards":[19,20,12,13,14,0,1,2,9,30,10],"focus":0,"pokerCount":107}}}}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:46 INFO  LoggingFilter - SENT: {"cmd":"ACTION_SYNC","data":{"resCode":0,"obj":{"actionInfo":{"time":1545805966680,"action":10,"actionTime":1545805966676,"timeLeft":10000,"round":1,"actor":{"index":0},"actionName":"PLAY_CHUPAI","actionResult":{"index":0}}}}}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:46 INFO  LoggingFilter - SENT: {"cmd":"PLAY_TIPAI","data":{"resCode":0,"obj":{"time":1545805966691,"action":10,"actionTime":1545805966676,"timeLeft":10000,"round":1,"actionResult":{"tingList":[],"tiPaiMap":{}}}}}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:46 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:46 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805966980,"action":10,"actionTime":1545805966676,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:46 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:46 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805966983,"action":10,"actionTime":1545805966676,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:46 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:50 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 5
+2018-12-26 14:32:50 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:50 DEBUG IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2018-12-26 14:32:50 INFO  LoggingFilter - RECEIVED: {"cmd":"SYNC"}
+2018-12-26 14:32:50 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 5
+2018-12-26 14:32:50 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 5
+2018-12-26 14:32:50 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805970978,"action":10,"actionTime":1545805966676,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:50 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 5
+2018-12-26 14:32:50 DEBUG IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2018-12-26 14:32:50 DEBUG IoFilterEvent - Firing a MESSAGE_SENT event for session 3
+2018-12-26 14:32:50 INFO  LoggingFilter - SENT: {"cmd":"SYNC_RES","data":{"resCode":0,"obj":{"time":1545805970979,"action":10,"actionTime":1545805966676,"timeLeft":10000,"round":1}}}
+2018-12-26 14:32:50 DEBUG IoFilterEvent - Event MESSAGE_SENT has been fired for session 3
+
+

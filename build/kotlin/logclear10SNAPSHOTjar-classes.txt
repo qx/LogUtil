@@ -1,0 +1,1 @@
+/Users/ok/luckier/log-clear/build/classes/kotlin/main/LogMain.class:/Users/ok/luckier/log-clear/build/classes/kotlin/main/Tester.class
